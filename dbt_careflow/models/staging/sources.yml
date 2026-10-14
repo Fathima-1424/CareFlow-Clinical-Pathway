@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: careflow_raw
+    database: polished-trail-511415-r4   # BigQuery project ID
+    schema: careflow                     # dataset
+    tables:
+      - name: raw_ehr_events
+        identifier: raw_events           # table name in BigQuery

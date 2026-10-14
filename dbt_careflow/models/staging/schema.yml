@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_ehr_events
+    description: Cleaned ER event log. One row per event, ready for process mining.
+    columns:
+      - name: case_id
+        description: Visit ID
+        data_tests:
+          - not_null
+      - name: activity
+        description: Step in the patient journey
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Registration', 'Triage', 'Lab Test', 'X-Ray', 'Treatment',
+                       'Doctor Consultation', 'Discharge', 'Admission', 'Return to Triage']
+      - name: event_timestamp
+        description: When the step happened
+        data_tests:
+          - not_null
