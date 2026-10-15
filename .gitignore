@@ -1,10 +1,6 @@
-# dbt
+.ipynb_checkpoints/
 target/
 dbt_packages/
 logs/
 profiles.yml
 *.json
-
-# Python
-.venv/
-__pycache__/
