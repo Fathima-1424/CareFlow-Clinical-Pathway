@@ -1,0 +1,19 @@
+pathway,visit_count,visit_pct
+Registration → Triage → Doctor Consultation → Discharge,1035,20.7
+Registration → Triage → X-Ray → Doctor Consultation → Discharge,819,16.38
+Registration → Triage → X-Ray → Return to Triage → Triage → Doctor Consultation → Discharge,579,11.58
+Registration → Triage → Lab Test → Doctor Consultation → Discharge,517,10.34
+Registration → Triage → X-Ray → Treatment → Doctor Consultation → Discharge,504,10.08
+Registration → Triage → Lab Test → Treatment → Doctor Consultation → Discharge,453,9.06
+Registration → Triage → X-Ray → Return to Triage → Triage → Treatment → Doctor Consultation → Discharge,317,6.34
+Registration → Triage → X-Ray → Lab Test → Doctor Consultation → Discharge,220,4.4
+Registration → Triage → X-Ray → Return to Triage → Triage → Lab Test → Doctor Consultation → Discharge,157,3.14
+Registration → Triage → Doctor Consultation → Admission,86,1.72
+Registration → Triage → X-Ray → Doctor Consultation → Admission,68,1.36
+Registration → Triage → Lab Test → Doctor Consultation → Admission,49,0.98
+Registration → Triage → X-Ray → Return to Triage → Triage → Doctor Consultation → Admission,46,0.92
+Registration → Triage → Lab Test → Treatment → Doctor Consultation → Admission,45,0.9
+Registration → Triage → X-Ray → Treatment → Doctor Consultation → Admission,42,0.84
+Registration → Triage → X-Ray → Return to Triage → Triage → Treatment → Doctor Consultation → Admission,28,0.56
+Registration → Triage → X-Ray → Lab Test → Doctor Consultation → Admission,21,0.42
+Registration → Triage → X-Ray → Return to Triage → Triage → Lab Test → Doctor Consultation → Admission,14,0.28

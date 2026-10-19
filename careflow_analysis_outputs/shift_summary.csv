@@ -1,0 +1,4 @@
+shift,total_visits,return_visits,mean_duration_minutes,median_duration_minutes,return_rate_pct
+Afternoon,1627,393,80.8,78.0,24.15
+Morning,1677,383,80.27,78.0,22.84
+Night,1696,365,79.65,77.0,21.52
