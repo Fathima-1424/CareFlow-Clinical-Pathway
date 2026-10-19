@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: event_log
+    description: Event log in process mining format with waiting time and rework flag.
+    columns:
+      - name: Case_ID
+        data_tests: [not_null]
+      - name: Activity_Name
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Registration', 'Triage', 'Lab Test', 'X-Ray', 'Treatment',
+                       'Doctor Consultation', 'Discharge', 'Admission', 'Return to Triage']
+      - name: Timestamp
+        quote: true
+        data_tests: [not_null]
+      - name: Event_Number
+        data_tests: [not_null]
+
+  - name: fct_visits
+    description: One row per patient visit with duration and loop-back flag.
+    columns:
+      - name: Case_ID
+        data_tests: [unique, not_null]
+      - name: has_loop_back
+        data_tests: [not_null]
+
+  - name: int_transition_times
+    description: Average waiting time between two consecutive steps.
+    columns:
+      - name: from_step
+        data_tests: [not_null]
+      - name: to_step
+        data_tests: [not_null]
