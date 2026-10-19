@@ -1,10 +1,9 @@
-# dbt
+@"
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
 target/
 dbt_packages/
 logs/
-profiles.yml
-*.json
-
-# Python
-.venv/
-__pycache__/
+"@ | Add-Content .gitignore
