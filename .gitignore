@@ -1,9 +1,17 @@
-@"
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Python
 .venv/
 **/.venv/
 __pycache__/
 *.pyc
-target/
-dbt_packages/
-logs/
-"@ | Add-Content .gitignore
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets (never commit Google keys)
+*.json
