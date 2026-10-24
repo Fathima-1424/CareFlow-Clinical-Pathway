@@ -1,6 +1,17 @@
-.ipynb_checkpoints/
+# dbt
 target/
 dbt_packages/
 logs/
 profiles.yml
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets (never commit Google keys)
 *.json

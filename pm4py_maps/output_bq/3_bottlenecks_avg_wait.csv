@@ -1,0 +1,16 @@
+from_step,to_step,patients,avg_wait_minutes
+Doctor Consultation,Admission,399,51.8
+Treatment,Doctor Consultation,1389,25.1
+Triage,Doctor Consultation,1746,25.1
+X-Ray,Doctor Consultation,887,24.9
+Lab Test,Doctor Consultation,978,24.4
+Triage,X-Ray,2815,19.9
+Triage,Treatment,345,18.2
+X-Ray,Lab Test,241,17.8
+Doctor Consultation,Discharge,4601,17.6
+Lab Test,Treatment,498,17.4
+Triage,Lab Test,1235,17.4
+X-Ray,Treatment,546,17.1
+X-Ray,Return to Triage,1141,14.9
+Return to Triage,Triage,1141,12.6
+Registration,Triage,5000,7.5
