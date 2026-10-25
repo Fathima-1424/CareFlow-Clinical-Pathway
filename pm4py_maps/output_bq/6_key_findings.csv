@@ -1,0 +1,7 @@
+metric,value
+events,27962.0
+visits,5000.0
+loop_back_visits,1141.0
+loop_back_percent,22.8
+avg_minutes_with_loop,107.8
+avg_minutes_without_loop,72.1
