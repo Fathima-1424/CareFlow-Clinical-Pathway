@@ -21,13 +21,16 @@ Infotact Solutions, Project 3. We use an ER patient event log to find where pati
 Python, PM4Py, Graphviz, BigQuery, dbt.
 
 ## Folders
-- pm4py_maps/: process mining maps and findings
-- dbt_careflow/: dbt staging model and tests
+- pm4py_maps/: process mining maps and findings (CSV and BigQuery versions)
+- dbt_careflow/: dbt staging and marts models with data tests
 - analysis/: stats check script
+- docs/: algorithm check and data quality notes
+- powerbi/: Power BI dashboard (.pbix)
 - simulator/: backup data generator
-
+  
 ## Team
 Fathima, Suraj, Omkar, Kumar
 
 ## Status
 Week 1: data generation, BigQuery upload, PM4Py process maps, and dbt staging model (written, run and test in progress).
+Week 2: dbt marts (event_log, fct_visits, int_transition_times, 17 tests pass), PM4Py process discovery on BigQuery data, algorithm check, Power BI KPI cards.
