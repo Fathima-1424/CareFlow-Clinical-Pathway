@@ -1,0 +1,19 @@
+visits,percent,path
+1035,20.7,Registration > Triage > Doctor Consultation > Discharge
+819,16.4,Registration > Triage > X-Ray > Doctor Consultation > Discharge
+579,11.6,Registration > Triage > X-Ray > Return to Triage > Triage > Doctor Consultation > Discharge
+517,10.3,Registration > Triage > Lab Test > Doctor Consultation > Discharge
+504,10.1,Registration > Triage > X-Ray > Treatment > Doctor Consultation > Discharge
+453,9.1,Registration > Triage > Lab Test > Treatment > Doctor Consultation > Discharge
+317,6.3,Registration > Triage > X-Ray > Return to Triage > Triage > Treatment > Doctor Consultation > Discharge
+220,4.4,Registration > Triage > X-Ray > Lab Test > Doctor Consultation > Discharge
+157,3.1,Registration > Triage > X-Ray > Return to Triage > Triage > Lab Test > Doctor Consultation > Discharge
+86,1.7,Registration > Triage > Doctor Consultation > Admission
+68,1.4,Registration > Triage > X-Ray > Doctor Consultation > Admission
+49,1.0,Registration > Triage > Lab Test > Doctor Consultation > Admission
+46,0.9,Registration > Triage > X-Ray > Return to Triage > Triage > Doctor Consultation > Admission
+45,0.9,Registration > Triage > Lab Test > Treatment > Doctor Consultation > Admission
+42,0.8,Registration > Triage > X-Ray > Treatment > Doctor Consultation > Admission
+28,0.6,Registration > Triage > X-Ray > Return to Triage > Triage > Treatment > Doctor Consultation > Admission
+21,0.4,Registration > Triage > X-Ray > Lab Test > Doctor Consultation > Admission
+14,0.3,Registration > Triage > X-Ray > Return to Triage > Triage > Lab Test > Doctor Consultation > Admission
