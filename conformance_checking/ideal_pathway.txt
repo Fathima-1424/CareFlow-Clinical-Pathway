@@ -1,0 +1,15 @@
+CareFlow Project – Reference Pathway
+
+START → Registration → Triage
+
+Optional Investigation:
+- Lab Test
+- X-Ray
+- Imaging
+
+Then:
+Treatment → Doctor Consultation
+
+Valid Endings:
+Doctor Consultation → Discharge → END
+Doctor Consultation → Admission → END

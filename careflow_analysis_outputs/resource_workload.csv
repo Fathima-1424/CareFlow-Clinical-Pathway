@@ -1,0 +1,17 @@
+resource,event_count,unique_visits,unique_activities
+Nurse_01,3109,2504,3
+Nurse_02,3086,2469,3
+Registration_01,2510,2510,1
+Registration_02,2490,2490,1
+Nurse_03,2476,2128,2
+Discharge_02,2307,2307,1
+Discharge_01,2294,2294,1
+Doctor_03,1706,1706,1
+Doctor_01,1653,1653,1
+Doctor_02,1641,1641,1
+Radiographer_02,1446,1446,1
+Radiographer_01,1369,1369,1
+LabTech_02,757,757,1
+LabTech_01,719,719,1
+BedManager_01,213,213,1
+BedManager_02,186,186,1

@@ -1,0 +1,36 @@
+
+version: 2
+
+models:
+  - name: stg_events
+    description: "Standardized CareFlow hospital event records."
+    columns:
+      - name: case_id
+        description: "Unique identifier for a patient visit."
+        data_tests:
+          - not_null
+
+      - name: activity
+        description: "Standardized hospital activity."
+        data_tests:
+          - not_null
+
+      - name: timestamp
+        description: "Timestamp of the hospital activity."
+        data_tests:
+          - not_null
+
+  - name: event_log
+    description: "Final event log used by PM4Py."
+    columns:
+      - name: case_id
+        data_tests:
+          - not_null
+
+      - name: activity
+        data_tests:
+          - not_null
+
+      - name: timestamp
+        data_tests:
+          - not_null

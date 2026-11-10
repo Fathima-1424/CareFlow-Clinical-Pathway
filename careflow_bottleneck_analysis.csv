@@ -1,0 +1,16 @@
+from_activity,to_activity,transition_count,avg_minutes,median_minutes,max_minutes,bottleneck_level
+Doctor Consultation,Admission,399,51.84,51.0,90.0,High Bottleneck
+Treatment,Doctor Consultation,1389,25.15,25.0,45.0,Medium Bottleneck
+Triage,Doctor Consultation,1746,25.08,25.0,45.0,Medium Bottleneck
+X-Ray,Doctor Consultation,887,24.93,25.0,45.0,Medium Bottleneck
+Lab Test,Doctor Consultation,978,24.45,24.0,45.0,Medium Bottleneck
+Triage,X-Ray,2815,19.86,20.0,35.0,Low Bottleneck
+Triage,Treatment,345,18.18,18.0,30.0,Low Bottleneck
+X-Ray,Lab Test,241,17.83,19.0,30.0,Low Bottleneck
+Doctor Consultation,Discharge,4601,17.59,18.0,30.0,Low Bottleneck
+Triage,Lab Test,1235,17.44,17.0,30.0,Low Bottleneck
+Lab Test,Treatment,498,17.36,17.0,30.0,Low Bottleneck
+X-Ray,Treatment,546,17.05,17.0,30.0,Low Bottleneck
+X-Ray,Return to Triage,1141,14.89,15.0,25.0,Low Bottleneck
+Return to Triage,Triage,1141,12.55,13.0,20.0,Low Bottleneck
+Registration,Triage,5000,7.51,8.0,12.0,Low Bottleneck
