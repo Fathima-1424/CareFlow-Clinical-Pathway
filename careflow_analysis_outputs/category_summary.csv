@@ -1,0 +1,4 @@
+patient_category,total_visits,return_visits,mean_duration_minutes,median_duration_minutes,return_rate_pct
+Adult,3513,805,80.44,78.0,22.91
+Child,606,147,79.84,77.0,24.26
+Older Adult,881,189,79.68,76.0,21.45

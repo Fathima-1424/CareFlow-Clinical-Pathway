@@ -1,0 +1,10 @@
+activity,no_return_visit_pct,return_visit_pct,percentage_point_difference
+Return to Triage,0.0,100.0,100.0
+X-Ray,43.38,100.0,56.62
+Treatment,27.05,30.24,3.18
+Discharge,91.94,92.29,0.35
+Doctor Consultation,100.0,100.0,0.0
+Triage,100.0,100.0,0.0
+Registration,100.0,100.0,0.0
+Admission,8.06,7.71,-0.35
+Lab Test,33.82,14.99,-18.83

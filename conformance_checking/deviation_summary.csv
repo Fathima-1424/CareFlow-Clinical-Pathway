@@ -1,0 +1,7 @@
+log_deviations,missing_model_activities,patient_count
+,Treatment,2574
+,,1044
+"Return to Triage, Triage",Treatment,625
+"Return to Triage, Triage",,345
+X-Ray,Treatment,241
+"Triage, X-Ray, Return to Triage",Treatment,171

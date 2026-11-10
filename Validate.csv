@@ -1,0 +1,16 @@
+from_activity,to_activity,transition_count
+Registration,Triage,5000
+Doctor Consultation,Discharge,4601
+Triage,X-Ray,2815
+Triage,Doctor Consultation,1746
+Treatment,Doctor Consultation,1389
+Triage,Lab Test,1235
+X-Ray,Return to Triage,1141
+Return to Triage,Triage,1141
+Lab Test,Doctor Consultation,978
+X-Ray,Doctor Consultation,887
+X-Ray,Treatment,546
+Lab Test,Treatment,498
+Doctor Consultation,Admission,399
+Triage,Treatment,345
+X-Ray,Lab Test,241
